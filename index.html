@@ -1,78 +1,61 @@
 <!DOCTYPE html>
-<html>
-    <head lang="en" style="scroll-behavior: smooth;">
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
-        <title>Egypt's student union card</title>
-        <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
-        <style>
-         .card {
- width: 190px;
- height: 254px;
- border-radius: 20px;
- background: #183D3D;
- position: relative;
- padding: 1.8rem;
- border: 2px solid #c3c6ce;
- transition: 0.5s ease-out;
- overflow: visible;
-}
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+  <title>CodePen - Simple Animated Card</title>
+  <link rel="stylesheet" href="./style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Fredericka+the+Great&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed&family=Roboto:wght@300&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0" />
+  <style>
+    body{color:#FFF5E0}
+    .card{margin-bottom: 10px;}
+    #hello{font-family: 'Fredericka the Great', cursive; color:#BB2525}
+  </style>
+</head>
+<body>
+<!-- partial:index.partial.html -->
 
-.card-details {
- color: #93B1A6;
- height: 100%;
- gap: .5em;
- display: grid;
- place-content: center;
-}
 
-.card-button {
- transform: translate(-50%, 125%);
- width: 60%;
- border-radius: 1rem;
- border: none;
- background-color: #93B1A6;
- color: #fff;
- font-size: 1rem;
- padding: .5rem 1rem;
- position: absolute;
- left: 50%;
- bottom: 0;
- opacity: 0;
- transition: 0.3s ease-out;
-}
-
-.text-body {
- color: whitesmoke;
-}
-
-/*Text*/
-.text-title {
- font-size: 1.5em;
- font-weight: bold;
-}
-
-/*Hover*/
-.card:hover {
- border-color: #5C8374;
- box-shadow: 0 4px 18px 0 rgba(0, 0, 0, 0.25);
-}
-
-.card:hover .card-button {
- transform: translate(-50%, 50%);
- opacity: 1;
-}
-        </style>
-
-    </head>
-    <body style="background-color: antiquewhite;">
-        <div class="w3-container w3-mobile">
-        <div class="card">
-            <div class="card-details">
-              <p class="text-title">Mohammed Mahmoud</p>
-              <p class="text-body">Fastest Cert. producer in media section</p>
-            </div>
-            <button class="card-button">ESU Media</button>
-          </div></div>
-    </body>
+<main>
+  <div><h1 id="hello">ESU Rewards Site</h1></div>
+  <div class = "card">
+    <img src="https://images.unsplash.com/photo-1656618020911-1c7a937175fd?crop=entropy&cs=tinysrgb&fm=jpg&ixid=MnwzMjM4NDZ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2NTc1MzQyNTE&ixlib=rb-1.2.1&q=80" alt="">
+    <div class="card-content">
+      <h2>
+        Mohammed Mahmoud
+      </h2>
+      <p>
+        Head of Ismailia social media dept. and the one to write the names of the grads (summer english course and the digital marketing course)
+      </p>
+      <a href="#" class="button">
+        ESU media
+      </a>
+    </div>
+  </div>
+  <!-- <div class = "card">
+    <img src="https://images.unsplash.com/photo-1656618020911-1c7a937175fd?crop=entropy&cs=tinysrgb&fm=jpg&ixid=MnwzMjM4NDZ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2NTc1MzQyNTE&ixlib=rb-1.2.1&q=80" alt="">
+    <div class="card-content">
+      <h2>
+        Mohammed Mahmoud
+      </h2>
+      <p>
+        Head of Ismailia social media dept. and the one to write the names of the grads (summer english course and the digital marketing course)
+      </p>
+      <a href="#" class="button">
+        Find out more 
+        <span class="material-symbols-outlined">
+          arrow_right_alt
+        </span>
+      </a>
+    </div>
+  </div> -->
+</main>
+<!-- partial -->
+  
+</body>
 </html>
